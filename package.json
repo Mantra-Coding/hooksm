@@ -1,14 +1,13 @@
 {
   "name": "@mantra-coding/uhooks",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "npm run clean && tsc && node esbuild.mjs",
     "lint": "npx eslint --ext .ts,.tsx",
-    "clean": "rm -rf lib",
-    "postinstall": "npm run build"
+    "clean": "rm -rf lib"
   },
   "keywords": [],
   "author": "",
